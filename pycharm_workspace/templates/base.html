@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    {% block title %}
+    <title>정재환 -게시판</title>
+    {% endblock %}
+    {% block styles %}
+    <style>
+        .myclass{
+            color: blue;
+        }
+    </style>
+    {% endblock %}
+    {% block scripts %}
+    <script LANGUAGE="JavaScript">
+        function testFunction() {
+            alert("JavaScript Function...");
+        }
+    </script>
+    {% endblock %}
+</head>
+
+<body>
+
+{% block body %}
+{% endblock %}
